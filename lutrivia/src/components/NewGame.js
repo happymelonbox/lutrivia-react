@@ -1,8 +1,10 @@
 import React from 'react'
 
-const NewGame = ({onClick}) => {
+const NewGame = () => {
     return (
-        <button onClick = {onClick}>New Game</button>
+        <div>
+
+        </div>
     )
 }
 

@@ -1,12 +1,26 @@
 import React from 'react'
 
-import Game from './Game'
+import Heading from './Heading'
+import Score from './Score'
+import NewGame from './NewGame'
+import Questions from '../containers/Questions'
+import SubmitScore from './SubmitScore'
 
-class Lutrivia extends React.Component{
+class Lutrivia extends React.Component {
+    constructor(){
+        super()
+        this.state={
+            some: 'thing'
+        }
+    }
     render(){
         return(
             <div>
-                < Game />
+                < Heading />
+                < Score />
+                < NewGame />
+                < Questions />
+                < SubmitScore />
             </div>
         )
     }

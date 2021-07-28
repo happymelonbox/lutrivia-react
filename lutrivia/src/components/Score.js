@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Score = ({score}) => {
+const Score = () => {
     return (
-        <h5>Score: {score}</h5>
+        <div>
+
+        </div>
     )
 }
 

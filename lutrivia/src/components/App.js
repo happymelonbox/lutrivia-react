@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Lutrivia from './Lutrivia'
+import Lutrivia from './Lutrivia';
 
 const App = () => {
   return (
