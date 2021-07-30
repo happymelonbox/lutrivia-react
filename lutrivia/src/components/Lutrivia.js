@@ -34,12 +34,12 @@ class Lutrivia extends React.Component {
         const keyName = value
         this.setState({
             records: {[keyName]: score}
-        })
+        },()=>{console.log(this.state.records)})
     }
 
     render(){
         return(
-            <div>
+            <div className="mainBody">
                 < Heading />
                 < Score score={this.state.score} />
                 < NewGame onClick={this.handleNewGame}/>

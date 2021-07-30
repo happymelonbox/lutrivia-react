@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewGame = ({onClick}) => {
     return (
-        <div>
+        <div className="newGameDiv">
             <button onClick={onClick}>New Game</button>
         </div>
     )
